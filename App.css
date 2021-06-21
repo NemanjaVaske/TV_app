@@ -1,0 +1,57 @@
+body {
+  background: rgba(100, 100, 105, 1);
+}
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  padding: 5px;
+  display: flex;
+}
+
+.myButton {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  font-style: italic;
+  padding: 12px 52px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+  margin: 5px;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.input {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 13px;
+}
+.input:focus {
+  outline: none;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
